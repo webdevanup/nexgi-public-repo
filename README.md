@@ -1,3 +1,2 @@
-# nexgi
+# NexGi
 
-## About NexGen Innovators
