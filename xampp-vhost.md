@@ -15,8 +15,8 @@ httpd-vhosts.conf - /Applications/XAMPP/xamppfiles/etc/extra/httpd-vhosts.conf
 ```
 <VirtualHost *:80>
     ServerName localhost 
-    DocumentRoot "C:/xampp/htdocs"  
-    <Directory "C:/xampp/htdocs">  
+    DocumentRoot "/Applications/XAMPP/htdocs"  
+    <Directory "/Applications/XAMPP/htdocs">  
         Options Indexes FollowSymLinks MultiViews
         AllowOverride all
         Order Deny,Allow
